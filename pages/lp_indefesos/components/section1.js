@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Section1(){
   return (
-    <div>
-      <Image
-        className={style.section1}
+    <div className={style.section1}>
+      <div
+        className={style.background}
         src={background}
       />
     </div>
