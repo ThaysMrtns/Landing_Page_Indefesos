@@ -1,4 +1,9 @@
 import style from "../../../styles/lp_indefesos/indefesos.module.sass";
+import Image from 'next/image';
+import rocky from '../../../public/dog8.png';
+import agnes from '../../../public/dog9.png';
+import aki from '../../../public/dog10.png';
+import perninha from '../../../public/dog11.png';
 
 export default function Section2(){
     return (
@@ -20,7 +25,38 @@ export default function Section2(){
                 </div>
 
             </div>
-            <div className={style.animalsContainer}></div>
+            <div className={style.animals}>
+                <div className={style.group}>
+                    <div className={style.picture}>
+                        <Image src={rocky}/>
+                        <h2 className={style.text}>Rocky</h2>
+                    </div>
+                    <div className={style.picture}>
+                        <Image src={agnes} className={style.picture}/>
+                        <h2 className={style.text}>Agnes</h2>
+                    </div>
+                    <div className={style.picture}>
+                        <Image src={aki} className={style.picture}/>
+                        <h2 className={style.text}>Aki</h2>
+                    </div>
+                    <div className={style.picture}>
+                        <Image src={perninha} className={style.picture}/>
+                        <h2 className={style.text}>Perninha</h2>
+                    </div>
+                </div>
+                <div className={style.picture}>
+                    <Image src={rocky} className={style.picture}/>
+                    <Image src={rocky} className={style.picture}/>
+                    <Image src={rocky} className={style.picture}/>
+                    <Image src={rocky} className={style.picture}/>
+                </div>
+                <div className={style.picture}>
+                    <Image src={rocky} className={style.picture}/>
+                    <Image src={rocky} className={style.picture}/>
+                    <Image src={rocky} className={style.picture}/>
+                    <Image src={rocky} className={style.picture}/>
+                </div>
+            </div>
         </div>
     );
 }
