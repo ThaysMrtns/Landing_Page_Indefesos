@@ -6,8 +6,8 @@ export default function Footer(){
     return(
         <div className={style.footer}>
             <div className={style.groupText}>
-                <h3 className={style.text}>Anuncie seu imóvel</h3>
-                <h3 className={style.text}>Buscar imóveis</h3>
+                <h3 className={style.anuncie}>Anuncie seu imóvel</h3>
+                <h3 className={style.buscar}>Buscar imóveis</h3>
                 <h3 className={style.text}>Como funciona</h3>
                 <h3 className={style.text}>Empréstimo com garantia</h3>
                 <h3 className={style.text}>Financiamento imobiliário</h3>
