@@ -13,9 +13,9 @@ import branco from '../../../public/dog17.png';
 import joaquina from '../../../public/dog18.png';
 import theocat from '../../../public/dog19.png';
 
-export default function Section2(){
+export default function Proposito(){
     return (
-        <div className={style.section2}>
+        <div className={style.proposito}>
             <div className={style.description}>
                 <div className={style.title}><h2>Propósito</h2></div>
                 <div className={style.text}>A casa é um lugar muito importante. 
@@ -35,57 +35,57 @@ export default function Section2(){
             </div>
             <div className={style.animals}>
                 <div className={style.animalsGroup}>
-                    <div className={style.animalsPicture}>
+                    <div className={style.picture}>
                         <Image src={rocky}/>
-                        <h2 className={style.animalsText}>Rocky</h2>
+                        <h2 className={style.text}>Rocky</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={agnes} className={style.picture}/>
-                        <h2 className={style.animalsText}>Agnes</h2>
+                    <div className={style.picture}>
+                        <Image src={agnes}/>
+                        <h2 className={style.text}>Agnes</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={aki} className={style.picture}/>
-                        <h2 className={style.animalsText}>Aki</h2>
+                    <div className={style.picture}>
+                        <Image src={aki}/>
+                        <h2 className={style.text}>Aki</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={perninha} className={style.picture}/>
-                        <h2 className={style.animalsText}>Perninha</h2>
+                    <div className={style.picture}>
+                        <Image src={perninha}/>
+                        <h2 className={style.text}>Perninha</h2>
                     </div>
                 </div>
                 <div className={style.animalsGroup}>
-                    <div className={style.animalsPicture}>
+                    <div className={style.picture}>
                         <Image src={maria}/>
-                        <h2 className={style.animalsText}>Maria</h2>
+                        <h2 className={style.text}>Maria</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={fiona} className={style.picture}/>
-                        <h2 className={style.animalsText}>Fiona</h2>
+                    <div className={style.picture}>
+                        <Image src={fiona} />
+                        <h2 className={style.text}>Fiona</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={marley} className={style.picture}/>
-                        <h2 className={style.animalsText}>Marley</h2>
+                    <div className={style.picture}>
+                        <Image src={marley} />
+                        <h2 className={style.text}>Marley</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={theo} className={style.picture}/>
-                        <h2 className={style.animalsText}>Theo</h2>
+                    <div className={style.picture}>
+                        <Image src={theo} />
+                        <h2 className={style.text}>Theo</h2>
                     </div>
                 </div>
                 <div className={style.animalsGroup}>
-                    <div className={style.animalsPicture}>
+                    <div className={style.picture}>
                         <Image src={gigi}/>
-                        <h2 className={style.animalsText}>Gigi</h2>
+                        <h2 className={style.text}>Gigi</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={branco} className={style.picture}/>
-                        <h2 className={style.animalsText}>Branco</h2>
+                    <div className={style.picture}>
+                        <Image src={branco} />
+                        <h2 className={style.text}>Branco</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={joaquina} className={style.picture}/>
-                        <h2 className={style.animalsText}>Joaquina</h2>
+                    <div className={style.picture}>
+                        <Image src={joaquina} />
+                        <h2 className={style.text}>Joaquina</h2>
                     </div>
-                    <div className={style.animalsPicture}>
-                        <Image src={theocat} className={style.picture}/>
-                        <h2 className={style.animalsText}>Theo</h2>
+                    <div className={style.picture}>
+                        <Image src={theocat}/>
+                        <h2 className={style.text}>Theo</h2>
                     </div>
                 </div>
             </div>

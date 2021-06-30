@@ -1,9 +1,9 @@
 import style from "../../../styles/lp_indefesos/indefesos.module.sass";
 import background from "../../../public/cachorros-juntos.png";
 
-export default function Section1(){
+export default function LivimaIndefesos(){
   return (
-    <div className={style.section1}>
+    <div className={style.livimaIndefesos}>
       <div
         className={style.background}
         src={background}>
