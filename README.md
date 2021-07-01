@@ -12,7 +12,7 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o 
 
 ## Deploy with Vercel
 
-Para acessar o projeto no ambiente de desenvolvimento, acesse o link a seguir:
+Para acessar o projeto no ambiente de produção, acesse o link a seguir:
 
 [https://landing-page-indefesos-172z5056r-thaysmrtns.vercel.app/](https://landing-page-indefesos-172z5056r-thaysmrtns.vercel.app/)
 
